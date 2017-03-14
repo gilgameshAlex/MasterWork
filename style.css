@@ -1,0 +1,7 @@
+QPushButton #settingMenu
+{
+    background: url("icon/setting.png") 0 40% no-repeat;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+}
