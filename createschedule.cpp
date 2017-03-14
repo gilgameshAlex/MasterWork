@@ -12,7 +12,7 @@ CreateSchedule::CreateSchedule(QWidget *parent) :
     ui(new Ui::CreateSchedule)
 {
     ui->setupUi(this);
-
+    ;
     db = QSqlDatabase::addDatabase("QPSQL");
 
     QSettings settings("GatesB", "MakeMeSchedule");
